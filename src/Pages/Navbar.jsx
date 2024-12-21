@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Top bar with circles and title */}
-      <nav className="bg-custom_purple_washed flex h-10 items-center space-x-4 fixed w-full z-20 top-0 start-0 px-2 ">
+      <nav className="bg-custom_purple_washed flex h-10 items-center space-x-4 fixed w-full z-20 top-0 start-0  ">
         {/* Circles */}
         <div className="flex items-center space-x-3 px-2">
           <div className="w-3 h-3 rounded-full bg-custom-red"></div>
@@ -62,7 +62,7 @@ const Navbar = () => {
         </div>
       </nav> */}
 
-      <nav class="fixed top-[42px] flex space-x-0.5">
+      <nav class="fixed top-[42px] flex flex-row space-x-0.5">
         <div class=" h-8 content-center font-cascadia text-xs font-bold text-white hover:text-custom-yellow flex-none bg-custom_purple_washed px-20">
           _hello
         </div>
